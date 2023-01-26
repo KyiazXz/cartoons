@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "bootstrap": "^5.2.3",
+    "lodash": "^4.17.21",
+    "mdb-react-ui-kit": "^5.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-router-dom": "^6.7.0",
+    "reactstrap": "^9.1.5",
+    "styled-components": "^5.3.6"
+  }
+}
