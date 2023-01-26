@@ -1,7 +1,7 @@
 
 import './App.css'
-import CoctailList from './components/coctailList/CoctailList'
-import CoctailContent from './components/coctailContent/CoctailContent'
+import CardList from './components/cardlList/CardList'
+import CardContent from './components/cardContent/CardContent'
 import {BrowserRouter , Route , Routes} from 'react-router-dom'
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
   <BrowserRouter >
     <div className="App">
       <Routes >
-          <Route path="/" element={<CoctailList />}> </Route>
-          <Route path="/:name" element={< CoctailContent/>}></Route>
+          <Route path="/" element={<CardList />}> </Route>
+          <Route path="/:name" element={< CardContent />}> </Route>
       </Routes>
       
        
