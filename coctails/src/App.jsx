@@ -1,12 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+
 import './App.css'
 import CoctailList from './components/coctailList/CoctailList'
 import CoctailContent from './components/coctailContent/CoctailContent'
 import {BrowserRouter , Route , Routes} from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
   <BrowserRouter >
